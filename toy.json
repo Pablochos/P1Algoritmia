@@ -1,0 +1,107 @@
+{
+  "videos": [
+    {
+      "name": "Anora",
+      "size": 100,
+      "fee": 1000,
+      "users": {
+        "Spain": 200,
+        "France": 700,
+        "Ireland": 100,
+        "Poland": 400
+      }
+    },
+    {
+      "name": "Dune: Parte 2",
+      "size": 200,
+      "fee": 1000,
+      "users": {
+        "Spain": 300,
+        "France": 800,
+        "Ireland": 400,
+        "Poland": 100
+      }
+    },
+    {
+      "name": "The Brutalist",
+      "size": 300,
+      "fee": 1000,
+      "users": {
+        "Spain": 660,
+        "France": 200,
+        "Ireland": 1800,
+        "Poland": 800
+      }
+    },
+    {
+      "name": "La sustancia",
+      "size": 400,
+      "fee": 1000,
+      "users": {
+        "Spain": 400,
+        "France": 100,
+        "Ireland": 600,
+        "Poland": 1000
+      }
+    },
+    {
+      "name": "Flow",
+      "size": 500,
+      "fee": 1000,
+      "users": {
+        "Spain": 600,
+        "France": 100,
+        "Ireland": 600,
+        "Poland": 1000
+      }
+    }
+  ],
+  "servers": [
+    {
+      "identifier": 1,
+      "country": "Spain",
+      "size": 1000
+    },
+    {
+      "identifier": 2,
+      "country": "France",
+      "size": 2500
+    },
+    {
+      "identifier": 3,
+      "country": "Ireland",
+      "size": 1500
+    },
+    {
+      "identifier": 4,
+      "country": "Poland",
+      "size": 2000
+    }
+  ],
+  "pings": {
+    "Spain": {
+      "Spain": 0,
+      "France": 50,
+      "Ireland": 150,
+      "Poland": 350
+    },
+    "France": {
+      "Spain": 50,
+      "France": 0,
+      "Ireland": 300,
+      "Poland": 250
+    },
+    "Ireland": {
+      "Spain": 150,
+      "France": 300,
+      "Ireland": 0,
+      "Poland": 350
+    },
+    "Poland": {
+      "Spain": 350,
+      "France": 250,
+      "Ireland": 350,
+      "Poland": 0
+    }
+  }
+}

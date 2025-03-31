@@ -1,5 +1,5 @@
 def key_sort(seq, key_function=lambda x: x, reverse=False):
-    """Ordena ascendentemente una secuencia utilizando una función clave. hol
+    """Ordena ascendentemente una secuencia utilizando una función clave.
 
     Parameters
     ----------
